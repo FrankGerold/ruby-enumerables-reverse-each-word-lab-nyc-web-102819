@@ -1,8 +1,8 @@
 def reverse_each_word (sentence)
   wordlist = sentence.split(" ")
+  new_sentence = ""
   wordlist.each do 
-    |memo, word|  
-    memo += "#{word.reverse} "
+    |word|  
+    new_sentence += "#{word.reverse} "
   end
-  memo
 end
