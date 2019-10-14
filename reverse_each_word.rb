@@ -4,4 +4,5 @@ def reverse_each_word (sentence)
     |memo, word|  
     memo += "#{word.reverse} "
   end
+  memo
 end
