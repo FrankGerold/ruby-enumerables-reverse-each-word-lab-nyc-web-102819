@@ -2,8 +2,9 @@ def reverse_each_word (sentence)
   wordlist = sentence.split(" ")
   flipped = []
   wordlist.each do
+    count = 0 
     |word|  
-    flipped += word.reverse
+    flipped[count]=word.reverse 
   end
-  flipped.join
+  flipped.join(" ")
 end
